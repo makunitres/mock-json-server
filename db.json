@@ -69,8 +69,7 @@
               "route": "mapping",
               "role": [
                 "admin",
-                "manager",
-                "user"
+                "manager"
               ]
             }
           ]
