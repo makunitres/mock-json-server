@@ -1,0 +1,63 @@
+{
+  "menus": [
+    {
+      "menu": "Admin",
+      "tabs": [
+        {
+          "mainTab": "ARN Tagging",
+          "subTabs": [
+            {
+              "id": 1,
+              "text": "New Request",
+              "route": "request"
+            },
+            {
+              "id": 2,
+              "text": "Approval",
+              "route": "approve"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "menu": "Management",
+      "tabs": [
+        {
+          "mainTab": "RM",
+          "subTabs": [
+            {
+              "id": 1,
+              "text": "User Creation",
+              "route": "craete"
+            },
+            {
+              "id": 2,
+              "text": "ISC Mapping",
+              "route": "mapping"
+            }
+          ]
+        },
+        {
+          "mainTab": "Master",
+          "subTabs": [
+            {
+              "id": 1,
+              "text": "Data Update",
+              "route": "update"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "menu": "Support",
+      "tabs": [
+        {
+          "mainTab": "Contact Us",
+          "subTabs": []
+        }
+      ]
+    }
+  ]
+}
