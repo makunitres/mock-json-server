@@ -34,7 +34,7 @@
             {
               "id": 3,
               "text": "Approval",
-              "route": "approve",
+              "route": "approval",
               "role": [
                 "admin",
                 "manager"
