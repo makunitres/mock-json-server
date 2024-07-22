@@ -24,7 +24,7 @@
             {
               "id": 2,
               "text": "ARN Tracker",
-              "route": "aron-tracker",
+              "route": "arn-tracker",
               "role": [
                 "admin",
                 "manager",
@@ -57,7 +57,7 @@
             {
               "id": 1,
               "text": "User Creation",
-              "route": "craete",
+              "route": "create",
               "role": [
                 "admin",
                 "manager"
@@ -80,7 +80,7 @@
             {
               "id": 1,
               "text": "Data Update",
-              "route": "update",
+              "route": "data-update",
               "role": [
                 "admin",
                 "manager",
