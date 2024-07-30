@@ -105,5 +105,25 @@
         }
       ]
     }
+  ],
+  "header": [
+    {
+      "name": "Menu1",
+      "route": "menu-1"
+    },
+    {
+      "name": "Menu2",
+      "route": "menu-2"
+    }
+  ],
+  "footer": [
+    {
+      "name": "Legacy",
+      "route": "legacy"
+    },
+    {
+      "name": "Terms",
+      "route": "terms"
+    }
   ]
 }
