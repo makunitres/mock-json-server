@@ -8,6 +8,7 @@
           "manager",
           "user"
         ],
+        "position": "sidebar",
         "tabs": [
           {
             "mainTab": "ARN Tagging",
@@ -51,6 +52,7 @@
           "admin",
           "manager"
         ],
+        "position": "sidebar",
         "tabs": [
           {
             "mainTab": "RM",
@@ -99,6 +101,7 @@
           "manager",
           "user"
         ],
+        "position": "sidebar",
         "tabs": [
           {
             "mainTab": "Contact Us",
