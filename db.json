@@ -1,129 +1,131 @@
 {
-  "menus": [
-    {
-      "menu": "Admin",
-      "role": [
-        "admin",
-        "manager",
-        "user"
-      ],
-      "tabs": [
-        {
-          "mainTab": "ARN Tagging",
-          "subTabs": [
-            {
-              "id": 1,
-              "text": "New Request",
-              "route": "request",
-              "role": [
-                "admin",
-                "manager",
-                "user"
-              ]
-            },
-            {
-              "id": 2,
-              "text": "ARN Tracker",
-              "route": "arn-tracker",
-              "role": [
-                "admin",
-                "manager",
-                "user"
-              ]
-            },
-            {
-              "id": 3,
-              "text": "Approval",
-              "route": "approval",
-              "role": [
-                "admin",
-                "manager"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "menu": "Management",
-      "role": [
-        "admin",
-        "manager"
-      ],
-      "tabs": [
-        {
-          "mainTab": "RM",
-          "subTabs": [
-            {
-              "id": 1,
-              "text": "User Creation",
-              "route": "create",
-              "role": [
-                "admin",
-                "manager"
-              ]
-            },
-            {
-              "id": 2,
-              "text": "ISC Mapping",
-              "route": "mapping",
-              "role": [
-                "admin",
-                "manager"
-              ]
-            }
-          ]
-        },
-        {
-          "mainTab": "Master",
-          "subTabs": [
-            {
-              "id": 1,
-              "text": "Data Update",
-              "route": "data-update",
-              "role": [
-                "admin",
-                "manager",
-                "user"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "menu": "Support",
-      "role": [
-        "admin",
-        "manager",
-        "user"
-      ],
-      "tabs": [
-        {
-          "mainTab": "Contact Us",
-          "subTabs": []
-        }
-      ]
-    }
-  ],
-  "header": [
-    {
-      "name": "Menu1",
-      "route": "menu-1"
-    },
-    {
-      "name": "Menu2",
-      "route": "menu-2"
-    }
-  ],
-  "footer": [
-    {
-      "name": "Legacy",
-      "route": "legacy"
-    },
-    {
-      "name": "Terms",
-      "route": "terms"
-    }
-  ]
+  "content": {
+    "menus": [
+      {
+        "menu": "Admin",
+        "role": [
+          "admin",
+          "manager",
+          "user"
+        ],
+        "tabs": [
+          {
+            "mainTab": "ARN Tagging",
+            "subTabs": [
+              {
+                "id": 1,
+                "text": "New Request",
+                "route": "request",
+                "role": [
+                  "admin",
+                  "manager",
+                  "user"
+                ]
+              },
+              {
+                "id": 2,
+                "text": "ARN Tracker",
+                "route": "arn-tracker",
+                "role": [
+                  "admin",
+                  "manager",
+                  "user"
+                ]
+              },
+              {
+                "id": 3,
+                "text": "Approval",
+                "route": "approval",
+                "role": [
+                  "admin",
+                  "manager"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "menu": "Management",
+        "role": [
+          "admin",
+          "manager"
+        ],
+        "tabs": [
+          {
+            "mainTab": "RM",
+            "subTabs": [
+              {
+                "id": 1,
+                "text": "User Creation",
+                "route": "create",
+                "role": [
+                  "admin",
+                  "manager"
+                ]
+              },
+              {
+                "id": 2,
+                "text": "ISC Mapping",
+                "route": "mapping",
+                "role": [
+                  "admin",
+                  "manager"
+                ]
+              }
+            ]
+          },
+          {
+            "mainTab": "Master",
+            "subTabs": [
+              {
+                "id": 1,
+                "text": "Data Update",
+                "route": "data-update",
+                "role": [
+                  "admin",
+                  "manager",
+                  "user"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "menu": "Support",
+        "role": [
+          "admin",
+          "manager",
+          "user"
+        ],
+        "tabs": [
+          {
+            "mainTab": "Contact Us",
+            "subTabs": []
+          }
+        ]
+      }
+    ],
+    "header": [
+      {
+        "name": "Menu1",
+        "route": "menu-1"
+      },
+      {
+        "name": "Menu2",
+        "route": "menu-2"
+      }
+    ],
+    "footer": [
+      {
+        "name": "Legacy",
+        "route": "legacy"
+      },
+      {
+        "name": "Terms",
+        "route": "terms"
+      }
+    ]
+  }
 }
