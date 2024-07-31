@@ -52,7 +52,7 @@
           "admin",
           "manager"
         ],
-        "position": "sidebar",
+        "position": "top",
         "tabs": [
           {
             "mainTab": "RM",
@@ -101,7 +101,7 @@
           "manager",
           "user"
         ],
-        "position": "top",
+        "position": "sidebar",
         "tabs": [
           {
             "mainTab": "Contact Us",
